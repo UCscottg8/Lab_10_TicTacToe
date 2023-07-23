@@ -86,7 +86,7 @@ public class TicTacToe {
         boolean diagonal2 = player.equals(board[0][2]) && player.equals(board[1][1]) && player.equals(board[2][0]);
         return diagonal1 || diagonal2;
     }
-
+//output
     private static boolean isTie() {
         for (int i = 0; i < ROW; i++) {
             for (int j = 0; j < COL; j++) {
